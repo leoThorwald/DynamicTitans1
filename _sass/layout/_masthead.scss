@@ -1,31 +1,39 @@
 // Styling for the masthead
 header.masthead {
   text-align: center;
-  color: white;
+  color: gainsboro;  /* Set text color to gray */
   background-image: url("#{$header-image}");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+
   .intro-text {
     padding-top: 150px;
     padding-bottom: 100px;
+
     .intro-lead-in {
       font-size: 22px;
       font-style: italic;
       line-height: 22px;
       margin-bottom: 25px;
+      color: gainsboro;  /* Gray text color */
+      text-shadow: 1px 1px 3px rgba(138, 43, 226, 0.8), 0 0 25px rgba(138, 43, 226, 0.4); /* Violet-blue text shadow */
       @include serif-font;
     }
+
     .intro-heading {
       font-size: 50px;
       font-weight: 700;
       line-height: 50px;
       margin-bottom: 25px;
+      color: gainsboro;  /* Gray text color */
+      text-shadow: 2px 2px 4px rgba(138, 43, 226, 0.8), 0 0 10px rgba(138, 43, 226, 0.6); /* Violet-blue text shadow */
       @include heading-font;
     }
   }
 }
+
 @media (min-width: 768px) {
   header.masthead {
     .intro-text {

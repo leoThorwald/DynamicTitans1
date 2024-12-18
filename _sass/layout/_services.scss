@@ -3,3 +3,23 @@
   margin: 15px 0;
   text-transform: none;
 }
+.services-intro {
+  margin-bottom: 20px;
+}
+
+.services-image {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.services-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+img {
+  width: 225px;
+  height: 225px;
+  border: 7px solid fade-out($black, 0.9);
+}

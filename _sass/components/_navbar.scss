@@ -12,15 +12,17 @@
     @include heading-font;
   }
   .navbar-brand {
-    color: $primary;
+    color: red; /* Set the navbar brand color to red */
     @include script-font;
+  
     &.active,
     &:active,
     &:focus,
     &:hover {
-      color: darken($primary, 10%);
+      color: darken(red, 10%); /* Darken the red color by 10% on active, focus, and hover states */
     }
   }
+  
   .navbar-nav {
     .nav-item {
       .nav-link {

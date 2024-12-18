@@ -10,17 +10,21 @@
 }
 
 .btn-primary {
-  background-color: $primary;
-  border-color: $primary;
+  background-color: red !important; /* Red background color */
+  border-color: red !important;     /* Red border color */
+
   &:active,
   &:focus,
   &:hover {
-    background-color: darken($primary, 7.5%) !important;
-    border-color: darken($primary, 7.5%) !important;
-    color: white;
+    background-color: darken(red, 7.5%) !important; /* Darken red on hover/active/focus */
+    border-color: darken(red, 7.5%) !important;     /* Darken border on hover/active/focus */
+    color: blueviolet !important; /* Ensure the text is white */
   }
+
   &:active,
   &:focus {
-    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.5) !important; /* Red box-shadow */
   }
 }
+
+
