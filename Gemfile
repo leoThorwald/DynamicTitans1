@@ -10,4 +10,4 @@ gem 'logger'
 gem 'csv'
 gem 'ostruct'
 gem 'base64'
-gem "jekyll-agency"
+S
